@@ -33,9 +33,9 @@ def start_timer():
     global reps
     reps += 1
 
-    work_sec = 10  # WORK_MIN * 60
-    short_break_sec = 3  # SHORT_BREAK_MIN * 60
-    long_break_sec = 5  # LONG_BREAK_MIN * 60
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
 
     global timer_label
     if reps % 8 == 0:
