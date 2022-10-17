@@ -1,3 +1,6 @@
+# TODO: Add sound after every rep
+# TODO: Add a pause button
+
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
